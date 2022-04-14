@@ -44,7 +44,7 @@ Most simple way is to schedule the execution in the cron, below you can see exam
 
 ```
 crontab -l
-* */5 * * * cd /home/<YOUR_USER>/solana-info-2-telegram; ./solana-delinquent-checkere.sh
+*/5 * * * * cd /home/<YOUR_USER>/solana-delinquent-checker; ./solana-delinquent-checkere.sh
 ```
 
 Have a fun with Solana validation!
