@@ -1,8 +1,10 @@
 # solana-delinquent-checker
 Solana Node delinquent status chceker
 
-
 Shell script that uses Solana and Telegram REST API to check Solana node's health.
+
+## Why?
+Once it happened to my Node that all process and port were up and there were no notification from my monitoring scripts that something is wrong, but Node went to "Delinquent" status. Fortunately my other script (https://github.com/b0br0ff/solana-info-2-telegram.git) has given me a hint and I was able to perform corrective actions on time. 
 
 ## Installation
 1. Create a Telegram bot using @BotFather or use chat id and token from existing one;
