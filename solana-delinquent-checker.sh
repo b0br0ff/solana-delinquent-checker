@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 # Author: b0br0ff
-# Prereqs: bc, jq
+# Prereqs: jq
 
 DEBUG=1
 
