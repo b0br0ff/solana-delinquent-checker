@@ -10,7 +10,7 @@ Once it happened to my Node that all process and port were up and there were no 
 1. Create a Telegram bot using @BotFather or use chat id and token from existing one;
 2. Install dependencies if needed: 
 ```
-sudo apt install bc jq -y
+sudo apt install jq -y
 ```
 4. Clone project: 
 ```
