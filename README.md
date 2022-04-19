@@ -24,13 +24,10 @@ telegram_bot_token="PUT_HERE_BOT_TOKEN_BY_BOTFATHER"
 telegram_chat_id="PUT_HERE_CHAT_ID"
 ```
 
-6. Edit script check-node.sh and set account IDs according to your node:
+6. Edit file node.ids and set account IDs according to your nodes. You can add as many nodes as you want:
 ```
-NODE_NAME=PUT_HERE_NODE_NAME"
-VOTE_ACC="PUT_HERE_YOUR_NODE_VOTE_ACCOUNT"
-
-#By default script uses following endpoint to query information for mainnetbeta node, you can change it to use in testnet, or even to work witj local RPC (http://localhost:8899):
-API_URL="https://api.mainnet-beta.solana.com"
+<PUT_HERE_TEST_VOTE_ACC>,TEST-SRV,testnet
+<PUT_HERE_MAIN_VOTE_ACC>,MAIN-SRV,mainnet
 ```
 
 ## Update
